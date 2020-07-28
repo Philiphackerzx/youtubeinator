@@ -9,6 +9,7 @@ pkg install jq -y
 npm install -g bash-obfuscate
 pkg install ffmpeg -y
 pkg install python -y
+pkg install open-ssl -y
 pkg install mpv -y
 pip install youtube-dl
 mkdir "/sdcard/download/www.philiphacker.in"
