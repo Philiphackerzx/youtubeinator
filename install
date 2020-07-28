@@ -8,8 +8,9 @@ pkg install nodejs -y
 pkg install jq -y
 npm install -g bash-obfuscate
 pkg install ffmpeg -y
-pkg install youtube-dl -y
+pkg install python -y
 pkg install mpv -y
+pip install youtube-dl
 mkdir "/sdcard/download/www.philiphacker.in"
 mkdir "/sdcard/download/www.philiphacker.in/youtubeinator"
 mkdir "/sdcard/download/www.philiphacker.in/youtubeinator/video/"
