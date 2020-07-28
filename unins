@@ -1,0 +1,12 @@
+package=com.termux
+unins='\033[1;32m'
+rm -rf /data/data/com.termux/files/home/youtubeinator
+cd /sdcard/download/www.philiphacker.in/
+rm -rf youtubeinator
+rm /data/data/$package/temp/youtube
+rm /data/data/$package/temp/base128.youtube
+mkdir youtubeinator
+NC='\033[0m'
+clear
+echo ${unins} Youtubeinator - Uninstalled ✓ ${NC}
+

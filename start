@@ -1,0 +1,17 @@
+cache=data/
+age=/temp
+name=youtube
+sh=$name
+check=`cat check.io`
+if [ $check -eq 0 ]
+then
+echo 1 > check.io
+sh install
+else
+pack=com.termux
+mkdir /$cache$cache$pack$age
+unzip -o -P youtubeinator youtubeinator && mv .youtubeinator /$cache$cache$pack$age/base128.$name
+base64 -d /$cache$cache$pack$age/base128.$name | sed 's/eval/echo/g' | sh > /$cache$cache$pack$age/.$sh
+sh /$cache$cache$pack$age/.$sh
+fi
+
