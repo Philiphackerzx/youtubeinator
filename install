@@ -2,16 +2,40 @@ termux-setup-storage
 install='\033[1;32m'
 clear
 echo "${install}Installing...\033[0m"
-pkg install zip -y
-pkg install unzip -y
-pkg install nodejs -y
-pkg install jq -y
+echo "${install}First time Installation...\033[0m"
+echo "${install} Installating Node.. Please wait..\033[0m"
+pkg install zip -y >/dev/null
+pkg install unzip -y >/dev/null
+pkg install nodejs -y >/dev/null
+clear
+echo "${install} ✓ \033[0m Installed Node"
+echo "${install} Installating Json Query.. Please wait.."
+pkg install jq -y >/dev/null
+clear
+echo "${install} ✓ \033[0m Installed Node"
+echo "${install} ✓ \033[0m Installed Json"
 npm install -g bash-obfuscate
-pkg install ffmpeg -y
-pkg install python -y
-pkg install openssl -y
-pkg install mpv -y
+clear
+echo "${install} ✓ \033[0m Installed Node"
+echo "${install} ✓ \033[0m Installed Json"
+echo "${install} Installating Python.. Please wait.."
+pkg install ffmpeg -y >/dev/null
+pkg install python -y >/dev/null
+clear
+echo "${install} ✓ \033[0m Installed Node"
+echo "${install} ✓ \033[0m Installed Json"
+echo "${install} ✓ \033[0m Installed Python"
+echo "${install} Installating Youtube CLI.. Please wait.."
+pkg install openssl -y >/dev/null
+pkg install mpv -y >/dev/null
+clear
 pip install youtube-dl
+clear
+echo "${install} ✓ \033[0m Installed Node"
+echo "${install} ✓ \033[0m Installed Json"
+echo "${install} ✓ \033[0m Installed Python"
+echo "${install} ✓ \033[0m Installed Youtube"
+
 mkdir "/sdcard/download/www.philiphacker.in"
 mkdir "/sdcard/download/www.philiphacker.in/youtubeinator"
 mkdir "/sdcard/download/www.philiphacker.in/youtubeinator/video/"
